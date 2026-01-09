@@ -1,0 +1,20 @@
+package com.example.petshop;
+
+import androidx.annotation.NonNull;
+
+import java.util.Date;
+
+public class Sad extends Mood{
+    public Sad() {
+    }
+
+    public Sad(Date date) {
+        super(date);
+    }
+
+    @NonNull
+    @Override
+    public String toString(){
+        return "Sad";
+    }
+}
