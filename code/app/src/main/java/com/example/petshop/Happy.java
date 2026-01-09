@@ -6,6 +6,7 @@ import java.util.Date;
 
 public class Happy extends Mood{
     public Happy() {
+        super();
     }
 
     public Happy(Date date) {
